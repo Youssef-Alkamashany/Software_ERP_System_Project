@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ERP System — Node.js Backend
 
 REST API built with **Express.js + MySQL** for the ERP frontend project.
