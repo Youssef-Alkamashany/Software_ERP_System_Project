@@ -7,24 +7,24 @@ REST API built with **Express.js + MySQL** for the ERP frontend project.
 
 ## ⚡ Quick Start
 
-### 1. Install dependencies
+## 1. Install dependencies
 ```bash
 cd erp-backend
 npm install
 ```
 
-### 2. Setup environment
+## 2. Setup environment
 ```bash
 cp .env.example .env
 # Edit .env with your MySQL credentials
 ```
 
-### 3. Create the database
+## 3. Create the database
 ```bash
 mysql -u root -p < src/config/schema.sql
 ```
 
-### 4. Run the server
+## 4. Run the server
 ```bash
 npm run dev    # Development (nodemon)
 npm start      # Production
