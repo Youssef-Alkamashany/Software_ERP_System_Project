@@ -91,7 +91,7 @@ Default admin credentials (from seed):
 
 ## 📦 Request Examples
 
-### Login
+## Login
 ```json
 POST /api/auth/login
 {
@@ -99,8 +99,9 @@ POST /api/auth/login
   "password": "admin123"
 }
 ```
+---
 
-### Process Order (Checkout)
+## Process Order (Checkout)
 ```json
 POST /api/orders
 Authorization: Bearer <token>
@@ -111,8 +112,9 @@ Authorization: Bearer <token>
   ]
 }
 ```
+---
 
-### Restock Product
+## Restock Product
 ```json
 PATCH /api/products/1/restock
 Authorization: Bearer <token>
