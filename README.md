@@ -24,37 +24,37 @@ The core engineering value of this ERP platform is the **real-time synchronizati
 
 ## 🏗️ Software Engineering Lifecycle (SDLC)
 
-## 📑 Phase 1: Analysis & System Architecture (The Blueprint)
+### 📑 Phase 1: Analysis & System Architecture (The Blueprint)
 * **Software Requirements Specification (SRS):** Full technical requirement baseline.
 * **UML Modeling:** Architectural design via Use Case, Class, Sequence, and Activity Diagrams (utilizing **Fork & Join** nodes for concurrent workflow processes).
 * **Database Design:** Relational ERD and normalized MySQL schema (`schema.sql`).
 
 ---
 
-## 🛠️ Phase 2: System Implementation
+### 🛠️ Phase 2: System Implementation
 * **Frontend:** Built with **React** & **Tailwind CSS**, leveraging Hooks (`useState`, `useEffect`) for state management and live cart status calculations.
 * **Backend:** Scalable RESTful API engineered with **Express.js** and **MySQL connection pooling**.
 * **Logic Rules:** Automated stock health categorization (`Healthy`, `Low Stock`, `Out of Stock`).
   
 ---
 
-## 🧪 Phase 3: Quality Assurance
+### 🧪 Phase 3: Quality Assurance
 * **Testing Execution:** Functional Test Cases covering zero-stock validations, concurrent checkout operations, and role authorization limits.
 
 ---
 
 ## ⚡ Quick Start (Backend Setup)
 
-## 1. Install dependencies
+### 1. Install dependencies
 ```bash
 cd erp-backend
 npm install
 
 ```
 
----
 
-## 2. Configure Environment & Database
+
+### 2. Configure Environment & Database
 
 ```bash
 cp .env.example .env
@@ -63,9 +63,9 @@ mysql -u root -p < src/config/schema.sql
 
 ```
 
----
 
-## 3. Run the Server
+
+### 3. Run the Server
 
 ```bash
 npm run dev    # Development Mode
@@ -79,7 +79,7 @@ npm start      # Production Server
 
 ## 📋 API Endpoints Reference
 
-## 🔒 Auth
+### 🔒 Auth
 
 | Method | Endpoint | Description | Access |
 | --- | --- | --- | --- |
@@ -87,9 +87,9 @@ npm start      # Production Server
 | **POST** | `/api/auth/login` | Authenticate user & return JWT | Public |
 | **GET** | `/api/auth/me` | Fetch active user profile | Authorized |
 
----
 
-## 📦 Products (Inventory)
+
+### 📦 Products (Inventory)
 
 | Method | Endpoint | Description | Access |
 | --- | --- | --- | --- |
@@ -100,9 +100,9 @@ npm start      # Production Server
 | **DELETE** | `/api/products/:id` | Remove a product | Admin |
 | **PATCH** | `/api/products/:id/restock` | Restock inventory units | Admin / Warehouse |
 
----
 
-## 🛒 Orders (Sales / POS)
+
+### 🛒 Orders (Sales / POS)
 
 | Method | Endpoint | Description | Access |
 | --- | --- | --- | --- |
@@ -111,9 +111,9 @@ npm start      # Production Server
 | **POST** | `/api/orders` | Checkout → Deducts inventory stock | Authorized |
 | **PATCH** | `/api/orders/:id/cancel` | Cancel order & restore stock | Admin |
 
----
 
-## 📜 Stock Logs (Audit Trail)
+
+### 📜 Stock Logs (Audit Trail)
 
 | Method | Endpoint | Description | Access |
 | --- | --- | --- | --- |
@@ -123,7 +123,7 @@ npm start      # Production Server
 
 ## 📦 Request Payload Examples
 
-## 🔐 Authentication Request
+### 🔐 Authentication Request
 
 ```json
 POST /api/auth/login
@@ -134,9 +134,9 @@ POST /api/auth/login
 
 ```
 
----
 
-## 💳 Process Checkout Transaction
+
+### 💳 Process Checkout Transaction
 
 ```json
 POST /api/orders
