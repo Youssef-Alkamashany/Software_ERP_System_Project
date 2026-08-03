@@ -55,7 +55,9 @@ Server runs on: `http://localhost:5000`
 | DELETE | `/api/products/:id` | Delete product (🔒 admin) |
 | PATCH  | `/api/products/:id/restock` | Add stock units (🔒 admin/warehouse) |
 
-### Orders (Sales / POS)
+---
+
+## Orders (Sales / POS)
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET    | `/api/orders` | Get all orders (🔒) |
@@ -63,7 +65,9 @@ Server runs on: `http://localhost:5000`
 | POST   | `/api/orders` | Process checkout → auto-deducts inventory (🔒) |
 | PATCH  | `/api/orders/:id/cancel` | Cancel order + restore stock (🔒 admin) |
 
-### Stock Logs (Audit Trail)
+---
+
+## Stock Logs (Audit Trail)
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET    | `/api/stock-logs` | Get stock history (🔒 admin/warehouse) |
