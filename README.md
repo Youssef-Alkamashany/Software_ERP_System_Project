@@ -36,14 +36,14 @@ Server runs on: `http://localhost:5000`
 
 ## 📋 API Endpoints
 
-### Auth
+## Auth
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | POST | `/api/auth/register` | Register new user |
 | POST | `/api/auth/login` | Login → returns JWT |
 | GET  | `/api/auth/me` | Get current user (🔒) |
 
-### Products (Inventory)
+## Products (Inventory)
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | GET    | `/api/products` | Get all products with status |
