@@ -43,6 +43,8 @@ Server runs on: `http://localhost:5000`
 | POST | `/api/auth/login` | Login → returns JWT |
 | GET  | `/api/auth/me` | Get current user (🔒) |
 
+---
+
 ## Products (Inventory)
 | Method | Endpoint | Description |
 |--------|----------|-------------|
