@@ -22,6 +22,40 @@ The core engineering value of this ERP platform is the **real-time synchronizati
 
 ---
 
+## 🖥️ System Demo & Live UI Showcase
+
+### 🛒 Sales & Point of Sale (POS) Module Workflow
+
+<div align="center">
+
+| 1️⃣ Empty POS Dashboard | 2️⃣ Cart Building & Real-time Total |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%201.png" width="420"/> | <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%202.png" width="420"/> |
+
+| 3️⃣ Successful Order & Auto Stock Deduction | 4️⃣ Out of Stock Limit Validation Alert |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%203.png" width="420"/> | <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%204.png" width="420"/> |
+
+</div>
+
+---
+
+### 📦 Warehouse & Stock Management Workflow
+
+<div align="center">
+
+| 5️⃣ Low Stock Health Status | 6️⃣ Automated Restock Action (+10 Units) |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%205.png" width="420"/> | <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%206.png" width="420"/> |
+
+| 7️⃣ Bulk Stock Addition (High Capacity) | 8️⃣ Live Synchronized POS Stock Status |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%207.png" width="420"/> | <img src="https://raw.githubusercontent.com/Youssef-Alkamashany/Software_ERP_System_Project/main/ERP%208.png" width="420"/> |
+
+</div>
+
+---
+
 ## 🏗️ Software Engineering Lifecycle (SDLC)
 
 ### 📑 Phase 1: Analysis & System Architecture (The Blueprint)
