@@ -208,7 +208,7 @@ Headers: Authorization: Bearer <JWT_TOKEN>
 
 **Youssef Alkamashany**
 
-* 🚀 **Aspiring MLOps/LLMOps & AI Data Engineer**.
+* 🚀 **Advancing toward MLOps/LLMOps & AI Data Engineer**.
 * 💼 Team Leader — Microsoft Data Engineering | Digital Egypt Pioneers Initiative (DEPI).
 
 ---
