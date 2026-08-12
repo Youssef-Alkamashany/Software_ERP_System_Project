@@ -204,6 +204,12 @@ Headers: Authorization: Bearer <JWT_TOKEN>
 
 ---
 
+## 👥 Project Team
+* **Team Lead:** Youssef Ahmed Mohamed Alkamashany
+* **Team Members:** Selvana Magdy, Lojin Khaled, Bavly Hany
+
+---
+
 ## 👤 Author & Contact
 
 **Youssef Alkamashany**
